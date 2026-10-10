@@ -29,6 +29,10 @@ black-hat(f) = closing(f) - f
 3. **Median blur** (3 or 5) to preserve and slightly enhance edge detail.
 4. **Black-hat** with an elliptical SE (21x21).
 
+## Images link
+- To test this pipeline, you'll need to first install the images provided by the organizators. I pretend to upload all the files to a google Drive in the future, since downloading the images will require the creation of a keggle account.
+- Link: [https://www.kaggle.com/competitions/filament-segmentation-2026]
+
 ```python
 gaussian = cv.GaussianBlur(src, ksize=(3, 3), sigmaX=3)
 median_3 = cv.medianBlur(gaussian, ksize=3)
