@@ -19,8 +19,10 @@ fsspec==2026.7.0
 h11==0.16.0
 httptools==0.8.0
 idna==3.18
+ImageIO==2.38.0
 Jinja2==3.1.6
 kiwisolver==1.5.0
+lazy-loader==0.6
 MarkupSafe==3.0.3
 matplotlib==3.11.1
 minio==7.2.20
@@ -64,11 +66,14 @@ python-multipart==0.0.32
 PyYAML==6.0.3
 requests==2.34.2
 requests-toolbelt==1.0.0
+scikit-image==0.26.0
+scipy==1.18.1
 setuptools==83.0.0
 shapely==2.1.2
 six==1.17.0
 starlette==1.4.1
 sympy==1.14.0
+tifffile==2026.9.20
 torch==2.13.0
 torchvision==0.28.0
 triton==3.7.1
